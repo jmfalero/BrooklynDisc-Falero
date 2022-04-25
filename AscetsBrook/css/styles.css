@@ -21,6 +21,7 @@
 .contenedor-header {
     grid-area:header;
     width: 100%;  
+    text-decoration: none;
 }
 
 .contenedor-header img {
@@ -28,13 +29,14 @@
 }
 .contenedor-nav {
     width: 100%;
-    background-color: bisque;
+    background-image: linear-gradient( to bottom, rgb(255, 238, 0) ,rgb(59, 59, 69));
     height: 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;    
     position: sticky;   
     top: 0;  
+    
 }
 
 .contenedor-nav ul {
@@ -71,6 +73,13 @@
 
 .ubicacion {
     padding: 20px;
+}
+.imgesquina {
+    transition:all , 2sg;
+}
+.imgesquina:hoover {
+    width: 250px;
+    transform: translate(20px,20px);
 }
 
 .contenedor-footer {
